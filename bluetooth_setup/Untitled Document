@@ -1,0 +1,23 @@
+Using Melody-smart BLE 
+
+MAnual: https://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/Melody-Smart-V2_6_0-UserManual-Rev_E.pdf
+
+why BLE isnt right for my application... shit:http://ww1.microchip.com/downloads/cn/AppNotes/cn587182.pdf
+
+Arduino: quickstart: https://learn.sparkfun.com/tutorials/bc118-ble-mate-2-hookup-guide
+
+
+connecting to BLE in ubuntu
+good document here: https://www.jaredwolff.com/blog/get-started-with-bluetooth-low-energy/
+troubleshooting here: https://ubuntuforums.org/showthread.php?t=2204808
+
+tools to remember: 
+
+sudo /etc/rc.d/bluetooth restart
+# hciconfig hci0 down
+# hciconfig hci0 up
+gatttool -b XX:XX:XX:XX -t random --interactive
+hcitool lescan
+
+
+maybe try 
