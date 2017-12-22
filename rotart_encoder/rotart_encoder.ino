@@ -1,6 +1,6 @@
 /* Rotary encoder read example */
-#define ENC_A 14
-#define ENC_B 15
+#define ENC_A A0
+#define ENC_B A1
 #define ENC_PORT PINC
  
 void setup()
@@ -16,13 +16,15 @@ void setup()
  
 void loop()
 {
- static uint8_t counter = 0;      //this variable will be changed by encoder input
+ static long int counter = 0;      //this variable will be changed by encoder input
  int8_t tmpdata;
  /**/
   tmpdata = read_encoder();
   if( tmpdata ) {
     Serial.print("Counter value: ");
-    Serial.println(counter, DEC);
+    Serial.print(counter, DEC);
+    Serial.print(" tmpData:  ");
+    Serial.println(tmpdata);
     counter += tmpdata;
   }
 }
