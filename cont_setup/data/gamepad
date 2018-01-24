@@ -1,0 +1,5 @@
+turret controller
+XPOS	Pupil X position	3	SLIDER	x	0	1.0	0.15
+YPOS	Pupil Y Position	3	SLIDER	y	0	1.0	0.15
+laser	laser_on_off	1	BUTTON	2	0	0.0	0.0
+run_prev	run_example	1	BUTTON	3	0	0.0	0.0

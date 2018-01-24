@@ -1,0 +1,1 @@
+devices = controlIO.getDevices();

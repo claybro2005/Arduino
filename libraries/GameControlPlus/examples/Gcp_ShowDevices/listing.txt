@@ -1,0 +1,8 @@
+##########################################################################################
+                   Game Control Plus  - available devices
+                   --------------------------------------
+  0  Apple Internal Keyboard / Trackpad     [Keyboard]  on  [Unknown]
+  1  Apple Internal Keyboard / Trackpad     [Mouse]  on  [Unknown]
+  2  Xbox 360 Wired Controller     [Gamepad]  on  [USB port]
+##########################################################################################
+

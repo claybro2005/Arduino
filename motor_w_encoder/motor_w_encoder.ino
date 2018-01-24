@@ -217,7 +217,7 @@ void execute(){
              Serial.print("Success, new pitch pos: ");
              Serial.println(count_pitch);
          }
-         break;
+         break;//mv,pitch,rel,50
          
       case 'p':
          if(yaw_f){
